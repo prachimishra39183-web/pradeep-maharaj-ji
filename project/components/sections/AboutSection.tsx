@@ -44,9 +44,7 @@ export function AboutSection() {
             {saintData.about.heading}
           </h2>
 
-          <p className="mt-4 font-serif-display text-2xl font-light text-maroon">
-            {saintData.name}
-          </p>
+         
 
           <p className="mt-6 text-base leading-relaxed text-muted-foreground md:text-lg">
             {saintData.about.biography}

@@ -33,9 +33,7 @@ export default function AboutPage() {
               About
             </p>
 
-            <h1 className="font-serif-display text-display-lg font-medium text-ivory text-shadow-dark">
-              {saintData.name}
-            </h1>
+           
 
             <p className="mt-4 font-serif-display text-xl font-light italic text-ivory/80">
               {saintData.about.label}
@@ -87,9 +85,7 @@ export default function AboutPage() {
               {saintData.about.heading}
             </h2>
 
-            <p className="mt-4 font-serif-display text-2xl font-light text-maroon">
-              {saintData.name}
-            </p>
+            
 
             <p className="mt-6 text-base leading-relaxed text-muted-foreground md:text-lg">
               {saintData.about.biography}

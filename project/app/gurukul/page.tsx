@@ -27,18 +27,14 @@ export default function GurukulPage() {
             <p className="mb-3 text-xs font-semibold uppercase tracking-[0.3em] text-saffron">
               {gurukulData.organization}
             </p>
-            <h1 className="font-serif-display text-display-lg font-medium text-ivory text-shadow-dark">
-              {gurukulData.heading}
-            </h1>
+           
            
           </div>
         </div>
       </section>
 
       {/* Supporting text */}
-      <section className="section-padding-sm bg-ivory">
-        <SectionHeading subtitle={gurukulData.supportingText} title="" />
-      </section>
+    
 
       {/* Sections */}
       <section className="section-padding bg-cream">
@@ -69,7 +65,7 @@ export default function GurukulPage() {
       <GurukulPhotoStory />
 
       {/* Final CTA */}
-      <FinalCTASection />
+  
     </>
   );
 }

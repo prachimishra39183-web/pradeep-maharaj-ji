@@ -18,9 +18,7 @@ export function IntroductionSection() {
           <p className="mb-4 text-xs font-semibold uppercase tracking-[0.25em] text-saffron">
             {saintData.introduction.label}
           </p>
-          <h2 className="font-serif-display text-display-md font-medium leading-tight text-charcoal">
-            {saintData.introduction.heading}
-          </h2>
+          
           <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
             {saintData.introduction.paragraph}
           </p>
