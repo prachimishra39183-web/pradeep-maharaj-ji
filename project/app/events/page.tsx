@@ -100,7 +100,7 @@ export default function EventsPage() {
 function EventCard({ event, index, flat = false }: { event: Event; index: number; flat?: boolean }) {
   return (
     <div
-      className={`group flex flex-col ${flat ? '' : 'rounded-sm border border-beige/50 bg-ivory p-6 transition-all duration-300 hover:shadow-lg'}`}
+      className={`group flex flex-col ${flat ? '' : 'rounded-sm border border-beige/50 bg-[#F8DCDC] p-6 transition-all duration-300 hover:shadow-lg'}`}
       style={{ transitionDelay: `${index * 0.08}s` }}
     >
       <div className="mb-4 flex items-center gap-3">
