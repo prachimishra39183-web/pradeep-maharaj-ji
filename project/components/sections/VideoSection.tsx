@@ -15,12 +15,7 @@ export function VideoSection() {
 
   return (
     <section className="section-padding bg-ivory">
-      <SectionHeading
-        label="Katha & Spiritual Discourses"
-        
-        
-      />
-
+     
       <div ref={ref} className={`container-max mt-16 ${isVisible ? 'is-visible' : ''} reveal`}>
         {/* Featured video */}
        

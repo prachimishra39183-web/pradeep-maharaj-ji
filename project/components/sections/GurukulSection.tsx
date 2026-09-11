@@ -12,11 +12,7 @@ export function GurukulSection() {
 
   return (
     <section id="gurukul" className="section-padding bg-ivory">
-      <SectionHeading
-        label={gurukulData.organization}
-        title={gurukulData.heading}
-        subtitle={gurukulData.supportingText}
-      />
+      
 
       <div ref={ref} className="container-max mt-16">
         {/* Hero image */}

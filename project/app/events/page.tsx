@@ -11,8 +11,16 @@ export default function EventsPage() {
 
   return (
     <>
-      <div className="bg-cream pb-8 pt-32 md:pt-40">
-        <SectionHeading label="Events" subtitle="Join us for Kathas, discourses and spiritual gatherings." />
+      {/* Page Header */}
+      <div className="bg-cream pb-10 pt-32 md:pt-40">
+        <SectionHeading
+          label="Events"
+          title="Spiritual Gatherings"
+        />
+
+        <p className="mx-auto mt-4 max-w-2xl px-6 text-center text-sm leading-6 text-muted-foreground">
+          Join us for Kathas, discourses and spiritual gatherings.
+        </p>
       </div>
 
       {/* View toggle */}
@@ -118,7 +126,7 @@ function EventCard({ event, index, flat = false }: { event: Event; index: number
           <span>{event.date} – {event.endDate}</span>
         </div>
       )}
-      <p className="mt-4 flex-1 text-sm leading-relaxed text-muted-foreground">{event.description}</p>
+      
       <button className="mt-5 inline-flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider text-maroon transition-colors hover:text-saffron">
         View Details
         <ArrowRight className="h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-x-1" />

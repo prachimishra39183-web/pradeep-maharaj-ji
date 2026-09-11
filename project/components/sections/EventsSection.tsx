@@ -55,9 +55,7 @@ export function EventsSection() {
                 </div>
               )}
 
-              <p className="mt-4 flex-1 text-sm leading-relaxed text-muted-foreground line-clamp-2">
-                {event.description}
-              </p>
+              
 
               <Link
                 href="/events"

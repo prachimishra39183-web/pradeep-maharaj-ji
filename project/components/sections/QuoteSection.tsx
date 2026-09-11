@@ -30,9 +30,7 @@ export function QuoteSection() {
           <div className="mb-8 flex justify-center">
             <span className="font-serif-display text-6xl text-saffron/40">&ldquo;</span>
           </div>
-          <blockquote className="font-serif-display text-2xl font-light italic leading-relaxed text-ivory md:text-4xl md:leading-relaxed">
-            {saintData.quote.text}
-          </blockquote>
+          
           <p className="mt-8 text-sm font-semibold uppercase tracking-[0.25em] text-saffron">
             {saintData.quote.attribution}
           </p>
