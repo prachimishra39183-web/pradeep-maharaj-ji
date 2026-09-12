@@ -1,25 +1,34 @@
 'use client';
 
 import { saintData } from '@/data/saint';
-import { SectionHeading } from '@/components/shared/SectionHeading';
+
+const journeyImages = [
+  '/qt9.jpeg',
+  '/qt4.jpeg',
+  '/qt6.jpeg',
+  '/qt7.jpeg',
+  '/qt5.jpeg',
+  '/qt8.jpeg',
+];
 
 export function JourneyTimeline() {
   return (
     <section className="relative overflow-hidden bg-[#F2F9FF] py-24 md:py-32">
-      
-      {/* Decorative background elements */}
-      <div className="pointer-events-none absolute -left-32 top-40 h-72 w-72 rounded-full bg-[#B68B3C]/5 blur-3xl" />
-      <div className="pointer-events-none absolute -right-32 bottom-40 h-72 w-72 rounded-full bg-[#7A2E2E]/5 blur-3xl" />
+
+      {/* Background decoration */}
+      <div className="pointer-events-none absolute -left-40 top-20 h-96 w-96 rounded-full bg-[#B68B3C]/5 blur-3xl" />
+      <div className="pointer-events-none absolute -right-40 bottom-20 h-96 w-96 rounded-full bg-[#7A2E2E]/5 blur-3xl" />
 
       <div className="relative mx-auto max-w-7xl px-6 md:px-12">
 
         {/* Heading */}
-        <div className="mx-auto mb-20 max-w-2xl text-center">
+        <div className="mx-auto mb-20 max-w-3xl text-center md:mb-28">
+
           <p className="mb-4 text-xs font-semibold uppercase tracking-[0.3em] text-[#B68B3C]">
             The Journey
           </p>
 
-          <h2 className="font-serif-display text-4xl font-medium text-[#2B2B2B] md:text-5xl lg:text-6xl">
+          <h2 className="font-serif-display text-4xl font-medium leading-tight text-[#2B2B2B] md:text-5xl lg:text-6xl">
             Where Devotion
             <span className="block text-[#7A2E2E]">
               Becomes a Journey
@@ -30,136 +39,195 @@ export function JourneyTimeline() {
             A story shaped by devotion, knowledge, discipline and seva —
             unfolding one chapter at a time.
           </p>
+
         </div>
 
-        {/* Journey */}
+
+        {/* Journey chapters */}
         <div className="relative">
 
-          {/* Central golden path */}
-          <div className="absolute left-1/2 top-0 hidden h-full w-[2px] -translate-x-1/2 bg-gradient-to-b from-transparent via-[#B68B3C]/50 to-transparent md:block" />
+          {/* Central line */}
+          <div className="pointer-events-none absolute left-1/2 top-0 hidden h-full w-px -translate-x-1/2 bg-gradient-to-b from-transparent via-[#B68B3C]/40 to-transparent lg:block" />
 
-          {/* Glowing center */}
-          <div className="absolute left-1/2 top-0 hidden h-4 w-4 -translate-x-1/2 rounded-full bg-[#B68B3C] shadow-[0_0_25px_rgba(182,139,60,0.5)] md:block" />
-
-          <div className="space-y-20 md:space-y-28">
+          <div className="space-y-28 md:space-y-36">
 
             {saintData.journey.map((entry, i) => {
-              const isLeft = i % 2 === 0;
+
+              const isImageLeft = i % 2 === 0;
 
               return (
-                <div
+                <article
                   key={entry.number}
-                  className="relative grid items-center md:grid-cols-2"
+                  className="relative grid items-center gap-10 lg:grid-cols-2 lg:gap-24"
                 >
 
-                  {/* Milestone */}
+                  {/* ================= IMAGE ================= */}
+
                   <div
-                    className={`relative z-10 ${
-                      isLeft
-                        ? 'md:pr-20'
-                        : 'md:col-start-2 md:pl-20'
+                    className={`relative ${
+                      isImageLeft
+                        ? 'lg:order-1'
+                        : 'lg:order-2'
                     }`}
                   >
 
-                    {/* 3D Card */}
+                    {/* Large 3D shadow layer */}
+                    <div
+                      className={`absolute inset-0 rounded-[32px] bg-[#7A2E2E]/10 ${
+                        isImageLeft
+                          ? 'translate-x-5 translate-y-5 rotate-2'
+                          : '-translate-x-5 translate-y-5 -rotate-2'
+                      }`}
+                    />
+
+                    {/* Gold frame layer */}
+                    <div
+                      className={`absolute inset-0 rounded-[32px] border-2 border-[#B68B3C]/20 ${
+                        isImageLeft
+                          ? 'translate-x-2 translate-y-2 rotate-1'
+                          : '-translate-x-2 translate-y-2 -rotate-1'
+                      }`}
+                    />
+
+                    {/* Image */}
                     <div
                       className="
-                        group relative
-                        rounded-[28px]
-                        border border-[#B68B3C]/20
-                        bg-white/80
-                        p-7
-                        shadow-[0_20px_60px_rgba(43,43,43,0.08)]
-                        backdrop-blur-xl
-                        transition-all duration-500
-                        hover:-translate-y-3
-                        hover:rotate-[0.5deg]
-                        hover:shadow-[0_30px_80px_rgba(43,43,43,0.14)]
-                        md:p-9
+                        group
+                        relative
+                        h-[380px]
+                        overflow-hidden
+                        rounded-[32px]
+                        border-[7px]
+                        border-white
+                        bg-white
+                        shadow-[0_30px_80px_rgba(43,43,43,0.15)]
+                        md:h-[460px]
                       "
                     >
 
-                      {/* Number */}
-                      <div
-                        className={`
-                          absolute -top-8
-                          flex h-16 w-16
-                          items-center justify-center
-                          rounded-full
-                          border-4 border-[#F2F9FF]
-                          bg-[#7A2E2E]
-                          shadow-xl
-                          ${isLeft ? '-right-5 md:-right-8' : '-left-5 md:-left-8'}
-                        `}
-                      >
-                        <span className="font-serif-display text-lg text-white">
+                      <img
+                        src={journeyImages[i]}
+                        alt={entry.title}
+                        className="
+                          h-full
+                          w-full
+                          object-cover
+                          object-center
+                          transition-transform
+                          duration-1000
+                          ease-out
+                          group-hover:scale-105
+                        "
+                        loading="lazy"
+                      />
+
+                      {/* Image gradient */}
+                      <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/45 via-transparent to-transparent" />
+
+                      {/* Chapter number */}
+                      <div className="absolute bottom-6 left-6 flex h-16 w-16 items-center justify-center rounded-full border border-white/40 bg-[#7A2E2E]/90 shadow-xl backdrop-blur-md">
+
+                        <span className="font-serif-display text-xl text-[#E4C77A]">
                           {entry.number}
                         </span>
+
                       </div>
 
                       {/* Year */}
-                      <p className="text-sm font-bold tracking-[0.25em] text-[#B68B3C]">
-                        {entry.date}
+                      <div className="absolute right-6 top-6 rounded-full border border-white/30 bg-black/25 px-4 py-2 backdrop-blur-md">
+
+                        
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+
+                  {/* ================= TEXT ================= */}
+
+                  <div
+                    className={`relative ${
+                      isImageLeft
+                        ? 'lg:order-2'
+                        : 'lg:order-1'
+                    }`}
+                  >
+
+                    {/* Center diamond */}
+                    <div className="absolute -top-8 left-1/2 hidden h-10 w-10 -translate-x-1/2 rotate-45 items-center justify-center rounded-lg border border-[#B68B3C]/30 bg-[#F2F9FF] shadow-md lg:flex">
+
+                      <div className="h-2.5 w-2.5 -rotate-45 rounded-full bg-[#7A2E2E]" />
+
+                    </div>
+
+
+                    {/* Text content */}
+                    <div
+                      className={`
+                        max-w-xl
+                        ${
+                          isImageLeft
+                            ? 'lg:pl-4'
+                            : 'lg:ml-auto lg:pr-4'
+                        }
+                      `}
+                    >
+
+                      <p className="text-xs font-bold uppercase tracking-[0.3em] text-[#B68B3C]">
+                        Chapter {entry.number}
                       </p>
 
-                      {/* Title */}
-                      <h3 className="mt-3 font-serif-display text-2xl font-medium text-[#2B2B2B] md:text-3xl">
+                      <div className="mt-3 h-px w-14 bg-[#B68B3C]" />
+
+                      <h3 className="mt-6 font-serif-display text-3xl font-medium leading-tight text-[#2B2B2B] md:text-4xl lg:text-5xl">
+
                         {entry.title}
+
                       </h3>
 
-                      {/* Small decorative line */}
-                      <div className="my-5 h-[2px] w-12 bg-[#B68B3C] transition-all duration-500 group-hover:w-20" />
-
-                      {/* Description */}
-                      <p className="text-sm leading-7 text-[#2B2B2B]/65 md:text-base">
+                      <p className="mt-6 text-sm leading-8 text-[#2B2B2B]/65 md:text-base">
                         {entry.description}
                       </p>
 
-                      {/* Bottom chapter label */}
-                      <div className="mt-6 flex items-center gap-3">
-                        <span className="h-1.5 w-1.5 rounded-full bg-[#B68B3C]" />
-                        <span className="text-[10px] font-semibold uppercase tracking-[0.25em] text-[#2B2B2B]/40">
-                          Chapter {entry.number}
-                        </span>
+
+                      {/* Decorative year */}
+                      <div className="mt-8 flex items-center gap-4">
+
+                       
+                        
+
+                        <span className="h-px w-16 bg-[#B68B3C]/40" />
+
                       </div>
 
-                      {/* 3D glow */}
-                      <div className="pointer-events-none absolute inset-0 -z-10 rounded-[28px] bg-gradient-to-br from-[#B68B3C]/10 via-transparent to-[#7A2E2E]/5 opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
                     </div>
+
                   </div>
 
-                  {/* Center milestone */}
-                  <div className="absolute left-1/2 top-1/2 z-20 hidden -translate-x-1/2 -translate-y-1/2 md:block">
-                    <div className="flex h-12 w-12 rotate-45 items-center justify-center rounded-[10px] border border-[#B68B3C]/40 bg-[#F2F9FF] shadow-lg">
-                      <div className="h-3 w-3 -rotate-45 rounded-full bg-[#7A2E2E]" />
-                    </div>
-                  </div>
-
-                  {/* Empty opposite side */}
-                  <div
-                    className={`hidden md:block ${
-                      isLeft ? 'md:col-start-2' : 'md:col-start-1'
-                    }`}
-                  />
-                </div>
+                </article>
               );
             })}
+
           </div>
 
-          {/* Ending point */}
-          <div className="relative mt-24 flex justify-center">
-            <div className="relative flex h-24 w-24 items-center justify-center rounded-full border border-[#B68B3C]/40 bg-white shadow-[0_15px_50px_rgba(43,43,43,0.1)]">
+
+          {/* ================= END ================= */}
+
+          <div className="relative mt-32 flex flex-col items-center text-center">
+
+            <div className="relative flex h-24 w-24 items-center justify-center rounded-full border border-[#B68B3C]/40 bg-white shadow-[0_20px_60px_rgba(43,43,43,0.1)]">
+
               <div className="absolute inset-2 rounded-full border border-dashed border-[#B68B3C]/40" />
 
               <span className="font-serif-display text-2xl text-[#7A2E2E]">
                 ✦
               </span>
-            </div>
-          </div>
 
-          {/* Final message */}
-          <div className="mx-auto mt-10 max-w-xl text-center">
-            <p className="text-xs font-semibold uppercase tracking-[0.3em] text-[#B68B3C]">
+            </div>
+
+            <p className="mt-8 text-xs font-semibold uppercase tracking-[0.3em] text-[#B68B3C]">
               The Journey Continues
             </p>
 
@@ -167,14 +235,16 @@ export function JourneyTimeline() {
               From Knowledge to Seva
             </h3>
 
-            <p className="mt-4 text-sm leading-7 text-[#2B2B2B]/60">
+            <p className="mt-4 max-w-xl text-sm leading-7 text-[#2B2B2B]/60">
               Every chapter adds a new meaning to the journey —
               and every step carries the spirit of devotion, learning
               and service forward.
             </p>
+
           </div>
 
         </div>
+
       </div>
     </section>
   );

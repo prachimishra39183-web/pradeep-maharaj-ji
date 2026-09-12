@@ -73,7 +73,7 @@ export default function AboutPage() {
                 </p>
 
                 <p className="mt-1 font-serif-display text-xl text-[#7A2E2E]">
-                  Pradeep Mishra Maharaj Ji
+                  Shri Pradeep Mishra Maharaj Ji
                 </p>
               </div>
 
@@ -191,7 +191,7 @@ export default function AboutPage() {
       The Person Behind the Purpose
     </p>
     <h3 className="mt-2 font-serif-display text-2xl text-white">
-      Pradeep Mishra Maharaj Ji
+     Shri Pradeep Mishra Maharaj Ji
     </h3>
   </div>
 </div>
@@ -206,7 +206,7 @@ export default function AboutPage() {
                 </p>
 
                 <p className="mt-1 font-serif-display text-lg text-[#7A2E2E]">
-                  Pradeep Mishra
+                  Shri Pradeep Mishra Maharaj Ji
                 </p>
 
               </div>

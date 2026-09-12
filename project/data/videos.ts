@@ -30,12 +30,12 @@ const videoEntries = [
   // ============================================================
   // SHRIMAD BHAGWAT KATHA - 6 VIDEOS
   // ============================================================
-['v1', 'Pradeep Maharaj Ji — Katha Darshan 01', 'a0aVvlO_pbg', 'Shrimad Bhagwat Katha', false],
-  ['v2', 'Pradeep Maharaj Ji — Katha Darshan 02', 'suT9xFW1zpU', 'Shrimad Bhagwat Katha', true],
-  ['v3', 'Pradeep Maharaj Ji — Katha Darshan 03', 's2LrShv8VV4', 'Shrimad Bhagwat Katha', false],
-  ['v4', 'Pradeep Maharaj Ji — Katha Darshan 04', 'RFrAz66zGjY', 'Shrimad Bhagwat Katha', false],
-  ['v5', 'Pradeep Maharaj Ji — Katha Darshan 05', 'WjM9K-MqRsI', 'Shrimad Bhagwat Katha', false],
-  ['v6', 'Pradeep Maharaj Ji — Katha Darshan 06', 'IlbkHALD_Mo', 'Shrimad Bhagwat Katha', false],
+['v1', ' Shri Pradeep Maharaj Ji — Katha Darshan 01', 'a0aVvlO_pbg', 'Shrimad Bhagwat Katha', false],
+  ['v2', 'Shri Pradeep Maharaj Ji — Katha Darshan 02', 'suT9xFW1zpU', 'Shrimad Bhagwat Katha', true],
+  ['v3', 'Shri Pradeep Maharaj Ji — Katha Darshan 03', 's2LrShv8VV4', 'Shrimad Bhagwat Katha', false],
+  ['v4', 'Shri Pradeep Maharaj Ji — Katha Darshan 04', 'RFrAz66zGjY', 'Shrimad Bhagwat Katha', false],
+  ['v5', 'Shri Pradeep Maharaj Ji — Katha Darshan 05', 'WjM9K-MqRsI', 'Shrimad Bhagwat Katha', false],
+  ['v6', 'Shri Pradeep Maharaj Ji — Katha Darshan 06', 'IlbkHALD_Mo', 'Shrimad Bhagwat Katha', false],
  
 
   // ============================================================
@@ -48,12 +48,12 @@ const videoEntries = [
   // SHIV PURAN - 6 VIDEOS
   // ============================================================
 
-  ['v13', 'Pradeep Maharaj Ji — Shiv Puran 01', '6k9_CpSPNxk', 'Shiv Puran', false],
-  ['v14', 'Pradeep Maharaj Ji — Shiv Puran 02', 'g-bc61ZcrSM', 'Shiv Puran', false],
-  ['v15', 'Pradeep Maharaj Ji — Shiv Puran 03', 'MPz6a-29GZ4', 'Shiv Puran', false],
-  ['v16', 'Pradeep Maharaj Ji — Shiv Puran 04', 'TwcnPozIKao', 'Shiv Puran', false],
-  ['v17', 'Pradeep Maharaj Ji — Shiv Puran 05', 'Nx9Yuyt2evY', 'Shiv Puran', false],
-  ['v18', 'Pradeep Maharaj Ji — Shiv Puran 06', 'BGyxRBSyBCM', 'Shiv Puran', false],
+  ['v13', 'Shri Pradeep Maharaj Ji — Shiv Puran 01', '6k9_CpSPNxk', 'Shiv Puran', false],
+  ['v14', 'Shri Pradeep Maharaj Ji — Shiv Puran 02', 'g-bc61ZcrSM', 'Shiv Puran', false],
+  ['v15', 'Shri Pradeep Maharaj Ji — Shiv Puran 03', 'MPz6a-29GZ4', 'Shiv Puran', false],
+  ['v16', 'Shri Pradeep Maharaj Ji — Shiv Puran 04', 'TwcnPozIKao', 'Shiv Puran', false],
+  ['v17', 'Shri Pradeep Maharaj Ji — Shiv Puran 05', 'Nx9Yuyt2evY', 'Shiv Puran', false],
+  ['v18', 'Shri Pradeep Maharaj Ji — Shiv Puran 06', 'BGyxRBSyBCM', 'Shiv Puran', false],
 
   // ============================================================
   // SPIRITUAL DISCOURSE - 6 VIDEOS
