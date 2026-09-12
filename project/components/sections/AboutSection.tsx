@@ -21,7 +21,7 @@ export function AboutSection() {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/logo.jpeg"
-            alt="Pradeep Maharaj Ji"
+            alt=" Shri Pradeep Maharaj Ji"
             className="block h-[520px] w-full scale-125 object-cover object-center transition-transform duration-700 hover:scale-[1.3]"
             loading="lazy"
           />

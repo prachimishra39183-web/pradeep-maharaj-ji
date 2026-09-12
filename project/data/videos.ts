@@ -63,12 +63,12 @@ const videoEntries = [
   // OTHER - 6 VIDEOS
   // ============================================================
 
-  ['v31', 'Pradeep Maharaj Ji — Krishna Bhajan 01', 'gqpM7MT6o_k', 'Other', false],
-  ['v32', 'Pradeep Maharaj Ji — Bholeji Bhajan 02', 'oxY1b7PqYT0', 'Other', false],
-  ['v33', 'Pradeep Maharaj Ji — Bhakti Sandhya 03', '6ocwjo4WqpU', 'Other', false],
-  ['v34', 'Pradeep Maharaj Ji — Bhakti Sandhya 04', 'BY4aR_Je0v8', 'Other', false],
-  ['v35', 'Pradeep Maharaj Ji — Bhakti Sandhya 05', '2ihITnJRFVs', 'Other', false],
-  ['v36', 'Pradeep Maharaj Ji — Bhakti Sandhya 06', '5lZ6gLBzUlM', 'Other', false],
+  ['v31', 'Shri Pradeep Maharaj Ji — Krishna Bhajan 01', 'gqpM7MT6o_k', 'Other', false],
+  ['v32', ' Shri Pradeep Maharaj Ji — Bholeji Bhajan 02', 'oxY1b7PqYT0', 'Other', false],
+  ['v33', 'Shri Pradeep Maharaj Ji — Bhakti Sandhya 03', '6ocwjo4WqpU', 'Other', false],
+  ['v34', 'Shri Pradeep Maharaj Ji — Bhakti Sandhya 04', 'BY4aR_Je0v8', 'Other', false],
+  ['v35', 'Shri Pradeep Maharaj Ji — Bhakti Sandhya 05', '2ihITnJRFVs', 'Other', false],
+  ['v36', 'Shri Pradeep Maharaj Ji — Bhakti Sandhya 06', '5lZ6gLBzUlM', 'Other', false],
 
 ] as const;
 
@@ -77,7 +77,7 @@ export const videos: Video[] = videoEntries.map(([id, title, videoId, category, 
   title,
   youtubeUrl: `https://youtu.be/${videoId}`,
   videoId,
-  description: 'Watch Pradeep Maharaj Ji share spiritual wisdom, devotion and timeless guidance.',
+  description: 'Watch Shri Pradeep Maharaj Ji share spiritual wisdom, devotion and timeless guidance.',
   category,
   date: 'Watch on YouTube',
   location: 'Jan Kalyan Gurukul Seva Sanstha',
