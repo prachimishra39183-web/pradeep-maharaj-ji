@@ -3,6 +3,7 @@
 export type VideoCategory =
   | 'Shrimad Bhagwat Katha'
   | 'Shiv Puran'
+  | 'Ram Katha'
   | 'Other';
 
 export type Video = {
@@ -22,6 +23,7 @@ export const videoCategories: Array<'All' | VideoCategory> = [
   'All',
   'Shrimad Bhagwat Katha',
   'Shiv Puran',
+  'Ram Katha',
   'Other',
 ];
 
@@ -69,6 +71,13 @@ const videoEntries = [
   ['v34', 'Shri Pradeep Maharaj Ji — Bhakti Sandhya 04', 'BY4aR_Je0v8', 'Other', false],
   ['v35', 'Shri Pradeep Maharaj Ji — Bhakti Sandhya 05', '2ihITnJRFVs', 'Other', false],
   ['v36', 'Shri Pradeep Maharaj Ji — Bhakti Sandhya 06', '5lZ6gLBzUlM', 'Other', false],
+//https://www.youtube.com/watch?v=Nx9Yuyt2evY&pp=ygVDIERBWSAwM19TSFJJIFJBTSBLQVRIQSBfUFJFREVFUCBNQUhBUkFKIEpJIC8vIE1PUkFJWUEgQlVKVVJHIEtBTk5PSg%3D%3D
+  ['v37', 'Shri Pradeep Maharaj Ji — Ram Katha 01', 'gqpM7MT6o_k', 'Ram Katha', false],
+  ['v38', ' Shri Pradeep Maharaj Ji — Ram Katha 02', 'MPz6a-29GZ4', 'Ram Katha', false],
+  ['v39', 'Shri Pradeep Maharaj Ji — Ram Katha 03', 'TwcnPozIKao', 'Ram Katha', false],
+  ['v40', 'Shri Pradeep Maharaj Ji — Ram Katha 04', 'Nx9Yuyt2evY', 'Ram Katha', false],
+  ['v41', 'Shri Pradeep Maharaj Ji — Ram Katha 05', 'g-bc61ZcrSM', 'Ram Katha', false],
+  ['v42', 'Shri Pradeep Maharaj Ji — Ram Katha 06', 'fYfPyLQdy60', 'Ram Katha', false],
 
 ] as const;
 
