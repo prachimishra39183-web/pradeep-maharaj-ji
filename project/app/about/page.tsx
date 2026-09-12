@@ -292,6 +292,209 @@ export default function AboutPage() {
       {/* =====================================================
           FINAL CTA
       ===================================================== */}
+      {/* ========================================
+    SPECIAL ACHIEVEMENTS
+======================================== */}
+<section className="relative overflow-hidden bg-transparent py-16 md:py-20">
+  <div className="mx-auto max-w-5xl px-6 md:px-12">
+
+    {/* Heading */}
+    <div className="mb-12 text-center">
+      <p className="text-[10px] font-semibold uppercase tracking-[0.3em] text-[#B68B3C]">
+        Special Milestones
+      </p>
+
+      <h2 className="mt-3 font-serif-display text-3xl font-medium text-[#2B2B2B] md:text-4xl">
+        A Journey Through the Years
+      </h2>
+    </div>
+
+    {/* Timeline */}
+    <div className="relative">
+
+      {/* Center line */}
+      <div className="absolute left-1/2 top-0 hidden h-full w-px -translate-x-1/2 bg-[#B68B3C]/25 md:block" />
+
+      <div className="space-y-10 md:space-y-12">
+
+        {/* 2006 */}
+        <div className="grid items-center md:grid-cols-2">
+          <div className="pr-8 text-right">
+            <p className="font-serif-display text-3xl text-[#7A2E2E]">
+              2006
+            </p>
+            <p className="mt-1 text-sm text-[#2B2B2B]/55">
+              Ayodhya Gurukul
+            </p>
+          </div>
+
+          <div className="hidden md:block" />
+        </div>
+
+
+        {/* 2007 */}
+        <div className="grid items-center md:grid-cols-2">
+          <div className="hidden md:block" />
+
+          <div className="pl-8">
+            <p className="font-serif-display text-3xl text-[#7A2E2E]">
+              2007
+            </p>
+            <p className="mt-1 text-sm text-[#2B2B2B]/55">
+              Maharishi Vedic Vishwa Vidyalaya
+            </p>
+            <p className="text-xs text-[#2B2B2B]/40">
+              Madhya Pradesh
+            </p>
+          </div>
+        </div>
+
+
+        {/* 2008 */}
+        <div className="grid items-center md:grid-cols-2">
+          <div className="pr-8 text-right">
+            <p className="font-serif-display text-3xl text-[#7A2E2E]">
+              2008
+            </p>
+            <p className="mt-1 text-sm text-[#2B2B2B]/55">
+              Pune
+            </p>
+          </div>
+
+          <div className="hidden md:block" />
+        </div>
+
+
+        {/* 2009 */}
+        <div className="grid items-center md:grid-cols-2">
+          <div className="hidden md:block" />
+
+          <div className="pl-8">
+            <p className="font-serif-display text-3xl text-[#7A2E2E]">
+              2009
+            </p>
+            <p className="mt-1 text-sm text-[#2B2B2B]/55">
+              Madhya Pradesh
+            </p>
+          </div>
+        </div>
+
+
+        {/* 2010 — Delhi */}
+        <div className="grid items-center md:grid-cols-2">
+          <div className="pr-8 text-right">
+            <p className="font-serif-display text-3xl text-[#7A2E2E]">
+              2010
+            </p>
+            <p className="mt-1 text-sm text-[#2B2B2B]/55">
+              Delhi
+            </p>
+            <p className="mt-1 text-xs text-[#2B2B2B]/40">
+              3 months
+            </p>
+          </div>
+
+          <div className="hidden md:block" />
+        </div>
+
+
+        {/* 2010–2012 — America */}
+        <div className="relative grid items-center md:grid-cols-2">
+
+          <div className="hidden md:block" />
+
+          <div className="relative pl-8">
+            <p className="font-serif-display text-3xl text-[#7A2E2E] md:text-4xl">
+              2010 — 2012
+            </p>
+
+            <p className="mt-2 text-sm font-medium text-[#2B2B2B]">
+              America
+            </p>
+
+            <p className="mt-2 text-xs leading-5 text-[#2B2B2B]/45">
+              1 April 2010 — 8 April 2012
+            </p>
+
+            <p className="mt-3 font-serif-display text-lg italic text-[#7A2E2E]">
+              Bhagwat Studies
+            </p>
+          </div>
+
+        </div>
+
+
+        {/* 2015 */}
+        <div className="grid items-center md:grid-cols-2">
+          <div className="pr-8 text-right">
+            <p className="font-serif-display text-3xl text-[#7A2E2E]">
+              2015
+            </p>
+            <p className="mt-1 text-sm text-[#2B2B2B]/55">
+              A new chapter began
+            </p>
+          </div>
+
+          <div className="hidden md:block" />
+        </div>
+
+      </div>
+    </div>
+
+
+    {/* Journey highlights */}
+    <div className="mt-16 border-t border-[#D9C8AD]/70 pt-10">
+
+      <div className="grid gap-10 md:grid-cols-3">
+
+        <div>
+          <p className="font-serif-display text-4xl text-[#7A2E2E]">
+            70–80
+          </p>
+
+          <p className="mt-2 text-[9px] font-semibold uppercase tracking-[0.22em] text-[#2B2B2B]/55">
+            Janambhumi Kathas
+          </p>
+
+          <p className="mt-1 text-xs text-[#2B2B2B]/40">
+            Lakhimpur
+          </p>
+        </div>
+
+        <div>
+          <p className="font-serif-display text-4xl text-[#7A2E2E]">
+            7–8
+          </p>
+
+          <p className="mt-2 text-[9px] font-semibold uppercase tracking-[0.22em] text-[#2B2B2B]/55">
+            States
+          </p>
+
+          <p className="mt-1 text-xs text-[#2B2B2B]/40">
+            Katha across India
+          </p>
+        </div>
+
+        <div>
+          <p className="font-serif-display text-4xl text-[#7A2E2E]">
+            USA
+          </p>
+
+          <p className="mt-2 text-[9px] font-semibold uppercase tracking-[0.22em] text-[#2B2B2B]/55">
+            International Journey
+          </p>
+
+          <p className="mt-1 text-xs text-[#2B2B2B]/40">
+            Beyond India
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
      
     </main>
   );

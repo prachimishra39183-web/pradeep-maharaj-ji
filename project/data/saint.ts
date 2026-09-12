@@ -35,7 +35,7 @@ export const saintData = {
     number: '01',
     title: 'Early Life',
     description:
-      'Shri Pradeep Maharaj Ji was born in Lakhimpur, Uttar Pradesh. From his childhood, he developed a deep interest in spirituality, Indian traditions, and the teachings of Sanatan Dharma.',
+      'Shri Pradeep Maharaj Ji was born on 26 February in Lakhimpur , Uttar Pradesh. From his childhood, he developed a deep interest in spirituality, Indian traditions, and the teachings of Sanatan Dharma.',
     
   },
   {
