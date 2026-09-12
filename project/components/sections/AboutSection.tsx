@@ -7,7 +7,7 @@ export function AboutSection() {
   const { ref, isVisible } = useScrollReveal<HTMLDivElement>();
 
   return (
-    <section className="section-padding bg-cream">
+    <section className="section-padding bg-transparent">
       <div
         ref={ref}
         className="container-max grid items-center gap-12 md:gap-16 lg:grid-cols-2"

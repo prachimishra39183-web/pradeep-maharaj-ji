@@ -4,16 +4,16 @@ import { GurukulPhotoStory } from '@/components/sections/GurukulPhotoStory';
 
 export default function GurukulPage() {
   return (
-    <main className="overflow-hidden bg-[#F2F9FF]">
+    <main className="overflow-hidden bg-transparent">
 
      
       {/* =====================================================
           02 — FOUNDER
       ====================================================== */}
-      <section className="relative overflow-hidden bg-[#7A2E2E] px-5 py-24 md:px-10 md:py-32">
+      <section className="relative overflow-hidden bg-transparent px-5 py-24 md:px-10 md:py-32">
 
         {/* large background text */}
-        <div className="pointer-events-none absolute -right-10 top-1/2 -translate-y-1/2 font-serif-display text-[18vw] leading-none text-white/[0.035]">
+        <div className="pointer-events-none absolute -right-10 top-1/2 -translate-y-1/2 font-serif-display text-[18vw] leading-none text-black/[0.035]">
           FOUNDER
         </div>
 
@@ -52,23 +52,23 @@ export default function GurukulPage() {
 
 
             {/* founder information */}
-            <div className="relative text-white">
+            <div className="relative text-maroon">
 
-              <p className="text-[10px] uppercase tracking-[0.35em] text-[#E4C77A]">
+              <p className="text-[10px] uppercase tracking-[0.35em] text-maroon">
                 Founder
               </p>
 
               <h2 className="mt-4 max-w-lg font-serif-display text-3xl font-medium leading-tight md:text-5xl">
-               Shri Pradeep Mishra
-                <span className="block text-[#E4C77A]">
+               Shri Pradeep 
+                <span className="block text-maroon">
                   Maharaj Ji
                 </span>
               </h2>
 
               <div className="mt-7 h-px w-14 bg-[#E4C77A]" />
 
-              <p className="mt-7 max-w-md text-sm leading-7 text-white/60">
-            With a vision to create a space where knowledge, संस्कार, discipline, spirituality and seva come together, Shri Pradeep Mishra Maharaj Ji opened the Jan Kalyan Gurukul Seva Sanstha on 15 April 2026. The Gurukul is envisioned as a place where education goes beyond academics — nurturing character, wisdom, humility and a sense of responsibility in every learner.
+              <p className="mt-7 max-w-md text-sm leading-7 text-black/60">
+            With a vision to create a space where knowledge, संस्कार, discipline, spirituality and seva come together, Shri Pradeep Maharaj Ji opened the Jan Kalyan Gurukul Seva Sanstha on 15 April 2026. The Gurukul is envisioned as a place where education goes beyond academics — nurturing character, wisdom, humility and a sense of responsibility in every learner.
               </p>
 
             </div>
@@ -81,13 +81,13 @@ export default function GurukulPage() {
  {/* =====================================================
           01 — GURUKUL INAUGURATION
       ====================================================== */}
-      <section className="relative bg-[#F2F9FF] px-5 pb-24 pt-28 md:px-10 md:pb-32 md:pt-36">
+      <section className="relative bg-transparent px-5 pb-24 pt-28 md:px-10 md:pb-32 md:pt-36">
 
         <div className="mx-auto max-w-7xl">
 
           {/* small heading */}
           <div className="mb-8 flex items-center gap-4">
-            <span className="h-px w-12 bg-[#B68B3C]" />
+            <span className="h-px w-12 bg-[#B68B3C]\" />
 
             <p className="text-[10px] font-medium uppercase tracking-[0.35em] text-[#7A2E2E]">
               The Beginning
@@ -97,6 +97,7 @@ export default function GurukulPage() {
 
           {/* cinematic video */}
           <div className="relative mx-auto max-w-4xl">
+            
 
             {/* 3D layers */}
             <div className="absolute -bottom-6 -left-6 h-full w-full rounded-[32px] bg-[#7A2E2E]/10" />
@@ -124,9 +125,7 @@ export default function GurukulPage() {
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/65 via-transparent to-transparent" />
 
               <div className="absolute bottom-7 left-7 md:bottom-10 md:left-10">
-                <p className="text-[10px] uppercase tracking-[0.35em] text-white/60">
-                  Inauguration
-                </p>
+                
 
                 <h1 className="mt-2 font-serif-display text-3xl font-medium text-white md:text-4xl">
                   The Beginning of a Vision
@@ -147,7 +146,7 @@ export default function GurukulPage() {
       {/* =====================================================
           04 — SPECIAL GUEST
       ====================================================== */}
-      <section className="relative overflow-hidden bg-[#F5E9E7] px-5 py-24 md:px-10 md:py-32">
+      <section className="relative overflow-hidden bg-transparent px-5 py-24 md:px-10 md:py-32">
 
         <div className="mx-auto max-w-6xl">
 

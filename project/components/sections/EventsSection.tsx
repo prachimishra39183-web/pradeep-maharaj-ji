@@ -9,7 +9,7 @@ export function EventsSection() {
   const { ref, isVisible } = useScrollReveal<HTMLDivElement>();
 
   return (
-    <section className="relative overflow-hidden bg-[#F2F9FF] py-20 md:py-28">
+    <section className="relative overflow-hidden bg-transparent py-20 md:py-28">
 
       {/* Soft 3D background orbs */}
       <div className="pointer-events-none absolute -left-24 top-24 h-56 w-56 rounded-full bg-[#7A2E2E]/5 blur-3xl" />

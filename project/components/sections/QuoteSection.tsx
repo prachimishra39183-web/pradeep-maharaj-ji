@@ -8,7 +8,7 @@ export function QuoteSection() {
   const { ref, isVisible } = useScrollReveal<HTMLDivElement>();
 
   return (
-    <section className="relative overflow-hidden bg-[#F2F9FF] py-24 md:py-32">
+    <section className="relative overflow-hidden bg-transparent py-24 md:py-32">
       {/* Decorative background elements */}
       <div className="pointer-events-none absolute -left-24 top-10 h-64 w-64 rounded-full bg-[#7A2E2E]/5 blur-3xl" />
       <div className="pointer-events-none absolute -right-24 bottom-10 h-72 w-72 rounded-full bg-[#B68B3C]/8 blur-3xl" />

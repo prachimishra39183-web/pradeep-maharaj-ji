@@ -19,12 +19,12 @@ export default function GalleryPage() {
 
   return (
     <>
-      <div className="bg-cream pb-8 pt-32 md:pt-40">
+      <div className="bg-transparent pb-8 pt-32 md:pt-40">
         <SectionHeading label="Gallery" title="The Gallery" subtitle="A visual journey through Katha, Gurukul, seva and spiritual life." />
       </div>
 
       {/* Category filter */}
-      <div className="sticky top-[72px] z-30 bg-ivory/95 backdrop-blur-md border-b border-beige/40">
+      <div className="sticky top-[72px] z-30 bg-transparent/95 backdrop-blur-md border-b border-beige/40">
         <div className="container-max px-6 py-4 md:px-12">
           <div className="flex flex-wrap gap-2">
             {galleryCategories.map((cat) => (
@@ -46,7 +46,7 @@ export default function GalleryPage() {
       </div>
 
       {/* Masonry grid */}
-      <div className="section-padding bg-ivory">
+      <div className="section-padding bg-transparent">
         <div className="container-wide">
           <div className="columns-1 gap-4 sm:columns-2 lg:columns-3 xl:columns-4">
             {filtered.map((img, i) => (

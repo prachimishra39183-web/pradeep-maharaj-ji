@@ -11,7 +11,7 @@ export function GurukulSection() {
   return (
     <section
       id="gurukul"
-      className="relative overflow-hidden bg-[#F2F9FF] py-24 md:py-32"
+      className="relative overflow-hidden bg-transparent py-24 md:py-32"
     >
 
       {/* Background decoration */}

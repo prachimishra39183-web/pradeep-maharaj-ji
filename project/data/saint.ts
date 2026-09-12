@@ -14,7 +14,7 @@ export const saintData = {
     label: 'Walking the Path of Dharma',
     heading: 'About the Journey',
     biography:
-      ' shri Pradeep Mishra Maharaj Ji’s journey is rooted in devotion, spiritual learning, and selfless service. From an early connection with Sanatan Dharma and sacred scriptures, his path gradually evolved into sharing spiritual wisdom through Kathas and discourses. His vision later expanded towards education, संस्कार, cultural preservation, and seva through Jan Kalyan Gurukul Seva Sanstha. Today, his journey continues with the mission of inspiring people through knowledge, devotion, and service.',
+      ' shri Pradeep Maharaj Ji’s journey is rooted in devotion, spiritual learning, and selfless service. From an early connection with Sanatan Dharma and sacred scriptures, his path gradually evolved into sharing spiritual wisdom through Kathas and discourses. His vision later expanded towards education, संस्कार, cultural preservation, and seva through Jan Kalyan Gurukul Seva Sanstha. Today, his journey continues with the mission of inspiring people through knowledge, devotion, and service.',
     
   },
 
@@ -35,7 +35,7 @@ export const saintData = {
     number: '01',
     title: 'Early Life',
     description:
-      'Shri Pradeep Mishra Maharaj Ji was born in Lakhimpur, Uttar Pradesh. From his childhood, he developed a deep interest in spirituality, Indian traditions, and the teachings of Sanatan Dharma.',
+      'Shri Pradeep Maharaj Ji was born in Lakhimpur, Uttar Pradesh. From his childhood, he developed a deep interest in spirituality, Indian traditions, and the teachings of Sanatan Dharma.',
     
   },
   {
@@ -56,7 +56,7 @@ export const saintData = {
     number: '04',
     title: 'Seva & Social Work',
     description:
-      'Alongside his spiritual work, Shri Pradeep Mishra Maharaj Ji began focusing on seva and social welfare, supporting educational initiatives, community activities, and efforts dedicated to helping society.',
+      'Alongside his spiritual work, Shri Pradeep Maharaj Ji began focusing on seva and social welfare, supporting educational initiatives, community activities, and efforts dedicated to helping society.',
    
   },
   {
@@ -70,7 +70,7 @@ export const saintData = {
     number: '06',
     title: 'Present Mission',
     description:
-      'Today, Shri Pradeep Mishra Maharaj Ji continues his journey through spiritual Kathas, education, cultural preservation, and seva, with the aim of inspiring people through devotion, knowledge, and selfless service.',
+      'Today, Shri Pradeep Maharaj Ji continues his journey through spiritual Kathas, education, cultural preservation, and seva, with the aim of inspiring people through devotion, knowledge, and selfless service.',
     date: 'Present',
   },
 ],

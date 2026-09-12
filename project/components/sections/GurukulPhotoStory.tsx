@@ -18,7 +18,7 @@ export function GurukulPhotoStory() {
   const { ref, isVisible } = useScrollReveal<HTMLDivElement>();
 
   return (
-    <section className="section-padding bg-cream">
+    <section className="section-padding bg-transparent">
       <SectionHeading label={gurukulData.photoStory.title} title={gurukulData.photoStory.title} />
 
       <div ref={ref} className="container-wide mt-16">

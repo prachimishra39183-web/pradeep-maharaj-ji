@@ -23,7 +23,7 @@ export function VideoCard({ video, onClick }: VideoCardProps) {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-charcoal/60 to-transparent" />
         <div className="absolute inset-0 flex items-center justify-center">
-          <div className="flex h-12 w-12 items-center justify-center rounded-full bg-ivory/90 shadow-lg transition-all duration-300 group-hover:scale-110 group-hover:bg-ivory">
+          <div className="flex h-12 w-12 items-center justify-center rounded-full bg-transparent/90 shadow-lg transition-all duration-300 group-hover:scale-110 group-hover:bg-transparent">
             <Play className="h-5 w-5 fill-maroon text-maroon" />
           </div>
         </div>

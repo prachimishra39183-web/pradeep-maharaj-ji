@@ -12,7 +12,7 @@ export default function EventsPage() {
   const remainingEvents = events.slice(1);
 
   return (
-    <main className="overflow-hidden bg-[#F2F9FF]">
+    <main className="overflow-hidden bg-transparent">
 
       {/* =========================================================
           HERO — SACRED CALENDAR
@@ -206,7 +206,7 @@ export default function EventsPage() {
               >
 
                 {/* diamond milestone */}
-                <div className="absolute left-5 top-7 z-20 h-5 w-5 -translate-x-1/2 rotate-45 border border-[#B68B3C] bg-[#F2F9FF] md:left-1/2">
+                <div className="absolute left-5 top-7 z-20 h-5 w-5 -translate-x-1/2 rotate-45 border border-[#B68B3C] bg-transparent md:left-1/2">
                   <div className="absolute inset-1.5 bg-[#7A2E2E]" />
                 </div>
 

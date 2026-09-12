@@ -35,7 +35,7 @@ export function VideoModal({ video, onClose }: VideoModalProps) {
         onClick={onClose}
       />
       <div className="relative z-10 w-full max-w-3xl animate-scale-in">
-        <div className="rounded-sm bg-ivory shadow-2xl">
+        <div className="rounded-sm bg-transparent shadow-2xl">
           {/* Header */}
           <div className="flex items-center justify-between border-b border-beige/50 px-6 py-4">
             <span className="rounded-full bg-saffron/10 px-3 py-1 text-[10px] font-semibold uppercase tracking-wider text-saffron">

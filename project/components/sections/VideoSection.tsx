@@ -21,7 +21,7 @@ export function VideoSection() {
     .slice(0, 3);
 
   return (
-    <section className="relative overflow-hidden bg-[#F2F9FF] py-24 md:py-32">
+    <section className="relative overflow-hidden bg-transparent py-24 md:py-32">
 
       {/* Decorative background shapes */}
       <div className="pointer-events-none absolute -left-32 top-20 h-72 w-72 rounded-full bg-[#7A2E2E]/5 blur-3xl" />

@@ -48,7 +48,7 @@ export function SevaSection() {
   const { ref, isVisible } = useScrollReveal<HTMLDivElement>();
 
   return (
-    <section id="seva" className="section-padding bg-ivory">
+    <section id="seva" className="section-padding bg-transparent">
       <SectionHeading
         label="Seva"
         title="Seva"
@@ -60,7 +60,7 @@ export function SevaSection() {
           {sevaItems.map((item, i) => (
             <div
               key={item.title}
-              className={`reveal ${isVisible ? 'is-visible' : ''} group rounded-sm border border-beige/40 bg-cream/30 p-8 transition-all duration-300 hover:border-saffron/30 hover:bg-cream hover:shadow-md`}
+              className={`reveal ${isVisible ? 'is-visible' : ''} group rounded-sm border border-beige/40 bg-transparent/30 p-8 transition-all duration-300 hover:border-saffron/30 hover:bg-transparent hover:shadow-md`}
               style={{ transitionDelay: `${i * 0.08}s` }}
             >
               <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-full bg-saffron/10 transition-colors duration-300 group-hover:bg-saffron/20">

@@ -19,12 +19,12 @@ export default function AboutPage() {
   const { ref, isVisible } = useScrollReveal<HTMLDivElement>();
 
   return (
-    <main className="overflow-hidden bg-[#F2F9FF]">
+    <main className="overflow-hidden bg-transparent">
 
       {/* =====================================================
           HERO
       ===================================================== */}
-      <section className="relative min-h-[90vh] overflow-hidden bg-[#F2F9FF]">
+      <section className="relative min-h-[90vh] overflow-hidden bg-transparent">
 
         {/* Geometric background */}
         <div className="pointer-events-none absolute right-[-120px] top-[-100px] h-[420px] w-[420px] rotate-45 border border-[#B68B3C]/15" />
@@ -73,7 +73,7 @@ export default function AboutPage() {
                 </p>
 
                 <p className="mt-1 font-serif-display text-xl text-[#7A2E2E]">
-                  Shri Pradeep Mishra Maharaj Ji
+                  Shri Pradeep Maharaj Ji
                 </p>
               </div>
 
@@ -138,7 +138,7 @@ export default function AboutPage() {
 
             {/* Vertical date marker */}
             <div className="absolute -right-8 top-1/2 z-20 hidden -translate-y-1/2 lg:block">
-              <div className="flex h-36 w-12 flex-col items-center justify-center border border-[#B68B3C]/30 bg-[#F2F9FF]">
+              <div className="flex h-36 w-12 flex-col items-center justify-center border border-[#B68B3C]/30 bg-transparent">
                 <span className="rotate-90 whitespace-nowrap text-[8px] font-semibold uppercase tracking-[0.3em] text-[#7A2E2E]">
                   The Beginning
                 </span>
@@ -191,7 +191,7 @@ export default function AboutPage() {
       The Person Behind the Purpose
     </p>
     <h3 className="mt-2 font-serif-display text-2xl text-white">
-     Shri Pradeep Mishra Maharaj Ji
+     Shri Pradeep Maharaj Ji
     </h3>
   </div>
 </div>
@@ -206,7 +206,7 @@ export default function AboutPage() {
                 </p>
 
                 <p className="mt-1 font-serif-display text-lg text-[#7A2E2E]">
-                  Shri Pradeep Mishra Maharaj Ji
+                  Shri Pradeep Maharaj Ji
                 </p>
 
               </div>

@@ -8,7 +8,7 @@ export function IntroductionSection() {
   const { ref, isVisible } = useScrollReveal<HTMLDivElement>();
 
   return (
-    <section className="section-padding bg-ivory">
+    <section className="section-padding bg-transparent">
       <div
         ref={ref}
         className={`container-wide grid items-center gap-12 md:gap-20 lg:grid-cols-12 ${isVisible ? 'is-visible' : ''} reveal`}

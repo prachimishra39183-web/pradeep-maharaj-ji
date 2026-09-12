@@ -74,7 +74,7 @@ export function GallerySection() {
     <>
       <section
         id="gallery"
-        className="section-padding bg-[#F2F9FF]"
+        className="section-padding bg-transparent"
       >
         <SectionHeading
           label="The Gallery"

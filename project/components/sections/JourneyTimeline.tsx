@@ -13,7 +13,7 @@ const journeyImages = [
 
 export function JourneyTimeline() {
   return (
-    <section className="relative overflow-hidden bg-[#F2F9FF] py-24 md:py-32">
+    <section className="relative overflow-hidden bg-transparent py-24 md:py-32">
 
       {/* Background decoration */}
       <div className="pointer-events-none absolute -left-40 top-20 h-96 w-96 rounded-full bg-[#B68B3C]/5 blur-3xl" />

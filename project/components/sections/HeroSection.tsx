@@ -44,10 +44,10 @@ export function HeroSection() {
   const rightBottomSlide = getSlide(4);
 
   return (
-    <section className="relative min-h-screen w-full overflow-hidden bg-F2F9FF">
+    <section className="relative min-h-screen w-full overflow-hidden bg-transparent">
 
     {/* ================= SOLID BACKGROUND ================= */}
-<div className="absolute inset-0 bg-[#F2F9FF]" />
+
 
       {/* ================= MAIN CONTENT ================= */}
       <div className="relative z-10 mx-auto flex min-h-screen max-w-[1500px] items-center px-5 pb-24 pt-28 sm:px-8 lg:px-10">
@@ -104,14 +104,14 @@ export function HeroSection() {
 
                     <Link
                       href="/about"
-                      className="rounded-full bg-ivory px-6 py-3 text-xs font-medium uppercase tracking-wider text-charcoal transition-all duration-300 hover:scale-105 hover:bg-white hover:shadow-xl sm:px-7 sm:text-sm"
+                      className="rounded-full bg-transparent/15 px-6 py-3 text-xs font-medium uppercase tracking-wider text-charcoal transition-all duration-300 hover:scale-105 hover:bg-white hover:shadow-xl sm:px-7 sm:text-sm"
                     >
                       Explore His Journey
                     </Link>
 
                     <Link
                       href="/videos"
-                      className="rounded-full border border-white/40 bg-white/10 px-6 py-3 text-xs font-medium uppercase tracking-wider text-ivory backdrop-blur-md transition-all duration-300 hover:scale-105 hover:bg-white/20 sm:px-7 sm:text-sm"
+                      className="rounded-full border border-white/40 bg-transparent/10 px-6 py-3 text-xs font-medium uppercase tracking-wider text-ivory backdrop-blur-md transition-all duration-300 hover:scale-105 hover:bg-white/20 sm:px-7 sm:text-sm"
                     >
                       Watch Katha
                     </Link>

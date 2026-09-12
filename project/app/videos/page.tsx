@@ -32,7 +32,7 @@ export default function VideosPage() {
     
 
       {/* Controls */}
-      <div className="sticky top-[72px] z-30 bg-ivory/95 backdrop-blur-md border-b border-beige/40">
+      <div className="sticky top-[72px] z-30 bg-transparent/95 backdrop-blur-md border-b border-beige/40">
         <div className="container-max px-6 py-4 md:px-12">
           <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
             {/* Categories */}
@@ -61,7 +61,7 @@ export default function VideosPage() {
                 placeholder="Search videos..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full rounded-full border border-beige bg-cream/30 py-2 pl-10 pr-4 text-sm text-charcoal outline-none transition-colors focus:border-saffron"
+                className="w-full rounded-full border border-beige bg-transparent/30 py-2 pl-10 pr-4 text-sm text-charcoal outline-none transition-colors focus:border-saffron"
               />
             </div>
           </div>
@@ -69,7 +69,7 @@ export default function VideosPage() {
       </div>
 
       {/* Video grid */}
-      <div className="section-padding bg-ivory">
+      <div className="section-padding bg-transparent">
         <div className="container-max">
           {filtered.length === 0 ? (
             <p className="py-20 text-center text-muted-foreground">

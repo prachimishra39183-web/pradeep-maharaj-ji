@@ -20,7 +20,7 @@ export function Navbar() {
       <header
        className={cn(
   'fixed top-0 left-0 right-0 z-50 transition-all duration-500',
-  'bg-[#F2F9FF]/95 backdrop-blur-md shadow-[0_1px_0_0_rgba(0,0,0,0.04)]'
+  'bg-[#F7F0E3]/85 backdrop-blur-md border-b border-[#B68B3C]/20 shadow-[0_4px_20px_rgba(122,46,46,0.06)]'
 )}
       >
         <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 md:px-12">
@@ -51,7 +51,7 @@ export function Navbar() {
                 'flex items-center gap-2 rounded-full px-5 py-2.5 text-[13px] font-medium uppercase tracking-wider transition-all duration-300',
                 scrolled || !isHome
                   ? 'bg-maroon text-ivory hover:bg-maroon/90'
-                  : 'bg-ivory/15 text-ivory backdrop-blur-sm border border-ivory/30 hover:bg-ivory/25'
+                  : 'bg-transparent/15 text-ivory backdrop-blur-sm border border-ivory/30 hover:bg-transparent/25'
               )}
             >
               <Play className="h-3.5 w-3.5 fill-current" />
@@ -80,7 +80,7 @@ export function Navbar() {
             className="absolute inset-0 bg-charcoal/40 backdrop-blur-sm"
             onClick={() => setMobileOpen(false)}
           />
-          <div className="absolute right-0 top-0 h-full w-[80%] max-w-sm bg-ivory shadow-2xl animate-fade-in">
+          <div className="absolute right-0 top-0 h-full w-[80%] max-w-sm bg-transparent shadow-2xl animate-fade-in">
             <div className="flex items-center justify-between px-6 py-5 border-b border-beige/50">
               <Logo size={36} />
               <button

@@ -19,7 +19,7 @@ export function ContactSection() {
   return (
     <section
       id="contact"
-      className="section-padding bg-[#F2F9FF]"
+      className="section-padding bg-transparent"
     >
       <SectionHeading
         label="Connect With Us"
