@@ -45,18 +45,13 @@ export function Navbar() {
                 <span className="absolute -bottom-1 left-0 h-px w-0 bg-saffron transition-all duration-300 group-hover:w-full" />
               </Link>
             ))}
-            <Link
-              href="/videos"
-              className={cn(
-                'flex items-center gap-2 rounded-full px-5 py-2.5 text-[13px] font-medium uppercase tracking-wider transition-all duration-300',
-                scrolled || !isHome
-                  ? 'bg-maroon text-ivory hover:bg-maroon/90'
-                  : 'bg-transparent/15 text-ivory backdrop-blur-sm border border-ivory/30 hover:bg-transparent/25'
-              )}
-            >
-              <Play className="h-3.5 w-3.5 fill-current" />
-              Watch Katha
-            </Link>
+           <Link
+  href="/videos"
+  className="flex items-center gap-2 rounded-full bg-maroon px-5 py-2.5 text-[13px] font-medium uppercase tracking-wider text-ivory shadow-md transition-all duration-300 hover:bg-maroon/90"
+>
+  <Play className="h-3.5 w-3.5 fill-current" />
+  Watch Katha
+</Link>
           </div>
 
           {/* Mobile toggle */}
@@ -85,7 +80,7 @@ export function Navbar() {
               <Logo size={36} />
               <button
                 onClick={() => setMobileOpen(false)}
-                className="text-charcoal"
+                className="text-white"
                 aria-label="Close menu"
               >
                 <X className="h-6 w-6" />
@@ -97,20 +92,20 @@ export function Navbar() {
                   key={item.label}
                   href={item.href}
                   onClick={() => setMobileOpen(false)}
-                  className="border-b border-beige/30 py-3.5 text-sm font-medium uppercase tracking-wider text-charcoal/80 transition-colors hover:text-maroon"
+                  className="border-b border-beige/30 py-3.5 text-sm font-medium uppercase tracking-wider text-white/80 transition-colors hover:text-maroon"
                   style={{ animationDelay: `${i * 0.05}s` }}
                 >
                   {item.label}
                 </Link>
               ))}
-              <Link
-                href="/videos"
-                onClick={() => setMobileOpen(false)}
-                className="mt-6 flex items-center justify-center gap-2 rounded-full bg-maroon px-5 py-3 text-sm font-medium uppercase tracking-wider text-ivory"
-              >
-                <Play className="h-4 w-4 fill-current" />
-                Watch Katha
-              </Link>
+            <Link
+  href="/videos"
+  onClick={() => setMobileOpen(false)}
+  className="mt-6 !flex !items-center !justify-center !gap-2 !rounded-full !bg-maroon !px-5 !py-3 text-sm !font-medium uppercase !tracking-wider !text-ivory shadow-md transition-all duration-300 hover:!bg-maroon/90 hover:shadow-lg"
+>
+  <Play className="h-4 w-4 fill-current" />
+  Watch Katha
+</Link>
               
             </nav>
           </div>

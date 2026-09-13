@@ -328,6 +328,8 @@ export default function AboutPage() {
       <div className="grid items-center gap-10 md:grid-cols-3">
 
         {/* 70–80 */}
+
+        
         <div className="group relative text-center">
           <div className="pointer-events-none absolute left-1/2 top-1/2 h-28 w-40 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#7A2E2E]/8 blur-2xl transition-transform duration-500 group-hover:scale-110" />
 

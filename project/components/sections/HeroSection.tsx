@@ -104,14 +104,14 @@ export function HeroSection() {
 
                     <Link
                       href="/about"
-                      className="rounded-full bg-transparent/15 px-6 py-3 text-xs font-medium uppercase tracking-wider text-charcoal transition-all duration-300 hover:scale-105 hover:bg-white hover:shadow-xl sm:px-7 sm:text-sm"
+                      className="rounded-full  border border-white/40 bg-maroon/100 px-6 py-3 text-xs font-medium uppercase tracking-wider text-ivory transition-all duration-300 hover:scale-105 hover:bg-white/20  sm:px-7 sm:text-sm"
                     >
                       Explore His Journey
                     </Link>
 
                     <Link
                       href="/videos"
-                      className="rounded-full border border-white/40 bg-transparent/10 px-6 py-3 text-xs font-medium uppercase tracking-wider text-ivory backdrop-blur-md transition-all duration-300 hover:scale-105 hover:bg-white/20 sm:px-7 sm:text-sm"
+                      className="rounded-full border border-white/40 bg-maroon/100 px-6 py-3 text-xs font-medium uppercase tracking-wider text-ivory  transition-all duration-300 hover:scale-105 hover:bg-white/20 sm:px-7 sm:text-sm"
                     >
                       Watch Katha
                     </Link>

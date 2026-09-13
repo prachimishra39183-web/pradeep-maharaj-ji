@@ -90,13 +90,12 @@ body {
   }
 
 .section-padding {
-  @apply px-6 py-12 md:px-12 md:py-16 lg:px-20 lg:py-20;
+  @apply px-6 py-10 md:px-12 md:py-14 lg:px-20 lg:py-16;
 }
 
 .section-padding-sm {
-  @apply px-6 py-9 md:px-12 md:py-12 lg:px-20;
+  @apply px-6 py-8 md:px-12 md:py-10 lg:px-20;
 }
-
   .container-max {
     @apply mx-auto max-w-7xl;
   }
