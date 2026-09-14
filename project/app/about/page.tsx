@@ -640,34 +640,35 @@ export default function AboutPage() {
 
 
           {/* RIGHT IMAGE COLLAGE */}
-          <div className="relative min-h-[520px] overflow-hidden bg-[#312727]">
+         <div className="relative min-h-[500px] overflow-hidden bg-[#312727] p-5 md:min-h-[560px] md:p-10">
 
-            {/* Main study image */}
-            <div className="absolute bottom-10 left-8 right-20 top-10 md:left-12 md:right-37 md:top-12">
+  {/* Main study image */}
+  <div className="relative h-[390px] w-full md:h-[470px]">
 
-              <img
-                src="/study.jpeg"
-                alt="Bhagwat study period in America"
-                className="h-full w-full object-cover"
-                loading="lazy"
-              />
+    <img
+      src="/study.jpeg"
+      alt="Bhagwat study period in America"
+      className="h-full w-full rounded-[4px] object-cover"
+      loading="lazy"
+    />
 
-              <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
+    <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
 
-            </div>
+  </div>
 
 
-            {/* Secondary image */}
-            <div className="absolute bottom-12 right-12 h-60 w-39 rotate-[4deg] overflow-hidden border-[6px] border-[#312727] bg-white shadow-2xl md:bottom-10 md:right-10 md:h-56 md:w-50">
+  {/* Secondary image */}
+  <div className="absolute bottom-6 right-6 z-10 h-[150px] w-[115px] rotate-[4deg] overflow-hidden border-[5px] border-[#312727] bg-white shadow-2xl sm:h-[175px] sm:w-[135px] md:bottom-10 md:right-10 md:h-[210px] md:w-[165px]">
 
-              <img
-                src="/usa.jpeg"
-                alt="Bhagwat study period"
-                className="h-full w-full object-cover"
-                loading="lazy"
-              />
+    <img
+      src="/usa.jpeg"
+      alt="Bhagwat study period"
+      className="h-full w-full object-cover"
+      loading="lazy"
+    />
 
-            </div>
+  </div>
+
 
 
             {/* date label */}
