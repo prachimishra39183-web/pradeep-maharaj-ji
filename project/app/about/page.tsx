@@ -643,10 +643,10 @@ export default function AboutPage() {
           <div className="relative min-h-[520px] overflow-hidden bg-[#312727]">
 
             {/* Main study image */}
-            <div className="absolute bottom-10 left-8 right-20 top-10 md:left-12 md:right-28 md:top-12">
+            <div className="absolute bottom-10 left-8 right-20 top-10 md:left-12 md:right-37 md:top-12">
 
               <img
-                src="/usa.jpeg"
+                src="/study.jpeg"
                 alt="Bhagwat study period in America"
                 className="h-full w-full object-cover"
                 loading="lazy"
@@ -658,10 +658,10 @@ export default function AboutPage() {
 
 
             {/* Secondary image */}
-            <div className="absolute bottom-12 right-12 h-60 w-39 rotate-[4deg] overflow-hidden border-[6px] border-[#312727] bg-white shadow-2xl md:bottom-10 md:right-10 md:h-56 md:w-80">
+            <div className="absolute bottom-12 right-12 h-60 w-39 rotate-[4deg] overflow-hidden border-[6px] border-[#312727] bg-white shadow-2xl md:bottom-10 md:right-10 md:h-56 md:w-50">
 
               <img
-                src="/usa2.jpeg"
+                src="/usa.jpeg"
                 alt="Bhagwat study period"
                 className="h-full w-full object-cover"
                 loading="lazy"
