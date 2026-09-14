@@ -8,7 +8,7 @@ const journeyImages = [
   '/qt6.jpeg',
   '/qt7.jpeg',
   '/qt5.jpeg',
-  '/qt8.jpeg',
+  '/chp6.jpeg',
 ];
 
 export function JourneyTimeline() {
