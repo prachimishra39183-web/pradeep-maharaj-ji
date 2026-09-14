@@ -640,29 +640,60 @@ export default function AboutPage() {
 
 
           {/* RIGHT IMAGE COLLAGE */}
-         <div className="relative min-h-[500px] overflow-hidden bg-[#312727] p-5 md:min-h-[560px] md:p-10">
+     {/* =====================================================
+    RIGHT IMAGE COLLAGE
+===================================================== */}
+<div className="relative min-h-[480px] overflow-hidden bg-[#312727] px-5 py-6 sm:min-h-[520px] md:px-10 md:py-10">
 
   {/* Main study image */}
-  <div className="relative h-[390px] w-full md:h-[470px]">
+  <div className="relative h-[350px] w-full sm:h-[400px] md:h-[450px]">
 
     <img
-      src="/study.jpeg"
+      src="/usa.jpeg"
       alt="Bhagwat study period in America"
-      className="h-full w-full rounded-[4px] object-cover"
+      className="h-full w-full rounded-sm object-cover"
       loading="lazy"
     />
 
-    <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
+    {/* image overlay */}
+    <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
 
   </div>
 
 
   {/* Secondary image */}
-  <div className="absolute bottom-6 right-6 z-10 h-[150px] w-[115px] rotate-[4deg] overflow-hidden border-[5px] border-[#312727] bg-white shadow-2xl sm:h-[175px] sm:w-[135px] md:bottom-10 md:right-10 md:h-[210px] md:w-[165px]">
+  <div
+    className="
+      absolute
+      bottom-5
+      right-5
+      z-10
+      h-[135px]
+      w-[105px]
+      rotate-3
+      overflow-hidden
+      border-[5px]
+      border-[#312727]
+      bg-white
+      shadow-[0_20px_45px_rgba(0,0,0,0.35)]
+      transition-all
+      duration-700
+      hover:rotate-0
+      hover:scale-105
+
+      sm:h-[160px]
+      sm:w-[125px]
+
+      md:bottom-8
+      md:right-8
+      md:h-[210px]
+      md:w-[165px]
+    "
+  >
 
     <img
-      src="/usa.jpeg"
-      alt="Bhagwat study period"
+      src="/usa1.jpeg"
+      alt="Photograph from Bhagwat study period in America"
       className="h-full w-full object-cover"
       loading="lazy"
     />
@@ -670,18 +701,18 @@ export default function AboutPage() {
   </div>
 
 
+  {/* date label */}
+  <div className="absolute left-6 top-6 z-20 sm:left-8 sm:top-8 md:left-12 md:top-12">
 
-            {/* date label */}
-            <div className="absolute left-8 top-8 md:left-12 md:top-12">
+    <span className="inline-block max-w-[220px] border border-white/20 bg-black/30 px-3 py-2 text-[8px] uppercase leading-4 tracking-[0.2em] text-white backdrop-blur-md sm:max-w-none sm:text-[9px]">
 
-              <span className="border border-white/20 bg-black/30 px-4 py-2 text-[9px] uppercase tracking-[0.25em] text-white backdrop-blur-md">
-                1 APR 2010 — 8 APR 2012
-              </span>
+      1 APR 2010 — 8 APR 2012
 
-            </div>
+    </span>
 
-          </div>
+  </div>
 
+</div>
         </div>
 
       </div>
