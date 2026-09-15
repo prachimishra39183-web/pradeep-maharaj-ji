@@ -496,7 +496,7 @@ export default function SewaPage() {
                 </span>
 
                 <span className="text-[9px] uppercase tracking-[0.2em] text-white/40">
-                  Samanya Seva
+                  Samanya Daan
                 </span>
 
               </div>
