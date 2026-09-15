@@ -346,7 +346,7 @@ function CreativeEventCard({
         }}
       />
 
-      <div className="relative min-h-[210px] border border-[#DCEAF5] bg-white/65 p-5 backdrop-blur-md transition-all duration-500 group-hover:-translate-y-2 group-hover:bg-white group-hover:shadow-[0_25px_60px_rgba(43,43,43,0.09)]">
+     <div className="relative min-h-[210px] border border-[#CDBFAF]/60 bg-[#E8D9C7] p-5 backdrop-blur-md transition-all duration-500 group-hover:-translate-y-2 group-hover:bg-white group-hover:shadow-[0_25px_60px_rgba(43,43,43,0.09)]">
 
         {/* decorative vertical bar */}
         <div className="absolute bottom-5 left-0 top-5 w-1 bg-gradient-to-b from-[#7A2E2E] via-[#B68B3C] to-transparent" />
@@ -378,13 +378,13 @@ function CreativeEventCard({
         </div>
 
         <div className="mt-8 flex items-center gap-2 pl-3 text-[10px] text-[#2B2B2B]/45">
-          <MapPin className="h-3 w-3 shrink-0 text-[#B68B3C]" />
+          <MapPin className="h-4 w-4 shrink-0 text-[#B68B3C]" />
           <span className="truncate">{event.location}</span>
         </div>
 
         <div className="mt-5 flex items-center justify-between border-t border-[#DCEAF5] pl-3 pt-3">
 
-          <span className="text-[8px] uppercase tracking-[0.2em] text-[#2B2B2B]/30">
+          <span className="text-[10px] uppercase tracking-[0.2em] text-[#2B2B2B]/140">
             {event.endDate ? 'Multi-day' : 'Upcoming'}
           </span>
 

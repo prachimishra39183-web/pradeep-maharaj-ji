@@ -54,16 +54,17 @@ export default function VideosPage() {
             </div>
 
             {/* Search */}
-            <div className="relative md:w-64">
-              <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
-              <input
-                type="text"
-                placeholder="Search videos..."
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full rounded-full border border-beige bg-transparent/30 py-2 pl-10 pr-4 text-sm text-charcoal outline-none transition-colors focus:border-saffron"
-              />
-            </div>
+       <div className="relative md:w-64">
+  <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-[#7A2E2E]/60" />
+
+  <input
+    type="text"
+    placeholder="Search videos..."
+    value={searchQuery}
+    onChange={(e) => setSearchQuery(e.target.value)}
+    className="w-full rounded-full border border-[#B68B3C]/40 bg-[#F7F0E3]/180 py-2 pl-10 pr-4 text-sm text-[#2B2B2B] placeholder:text-[#2B2B2B]/45 outline-none backdrop-blur-sm transition-colors focus:border-[#7A2E2E]"
+  />
+</div>
           </div>
         </div>
       </div>
