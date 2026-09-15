@@ -15,6 +15,7 @@ export const siteConfig = {
     { label: 'Katha / Videos', href: '/videos' },
     { label: 'Events', href: '/events' },
     { label: 'Gurukul', href: '/gurukul' },
+    { label: ' Sewa Sansthan', href: '/sewa' },
     { label: 'Contact', href: '/contact' },
   ],
 
