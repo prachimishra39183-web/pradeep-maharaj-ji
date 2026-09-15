@@ -64,7 +64,7 @@ export function GurukulSection() {
                 </p>
 
                 <h3 className="mt-1 font-serif-display text-xl text-[#7A2E2E]">
-                  Pradeep Mishra Maharaj Ji
+                  Shri Pradeep  Maharaj Ji
                 </h3>
               </div>
 
@@ -153,7 +153,7 @@ export function GurukulSection() {
                 </p>
 
                 <p className="mt-1 font-serif-display text-base text-[#7A2E2E]">
-                  Pradeep Mishra Maharaj Ji
+                  Shri Pradeep Maharaj Ji
                 </p>
               </div>
 

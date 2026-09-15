@@ -2,7 +2,7 @@
 
 export type VideoCategory =
   | 'Shrimad Bhagwat Katha'
-  | 'Shiv Puran'
+  | 'Shiv Maha Puran'
   | 'Ram Katha'
   | 'Other';
 
@@ -22,7 +22,7 @@ export type Video = {
 export const videoCategories: Array<'All' | VideoCategory> = [
   'All',
   'Shrimad Bhagwat Katha',
-  'Shiv Puran',
+  'Shiv Maha Puran',
   'Ram Katha',
   'Other',
 ];
@@ -49,13 +49,14 @@ const videoEntries = [
   // ============================================================
   // SHIV PURAN - 6 VIDEOS
   // ============================================================
+  //https://www.youtube.com/watch?v=cwME_ckA8T0&list=PLuAu0U4lHurHqcDaUmAIX8eNJLrKfqY6P&index=1&pp=iAQB0gcJCSQMAYcqIYzv
 
-  ['v13', 'Shri Pradeep Maharaj Ji — Shiv Puran 01', '6k9_CpSPNxk', 'Shiv Puran', false],
-  ['v14', 'Shri Pradeep Maharaj Ji — Shiv Puran 02', 'g-bc61ZcrSM', 'Shiv Puran', false],
-  ['v15', 'Shri Pradeep Maharaj Ji — Shiv Puran 03', 'MPz6a-29GZ4', 'Shiv Puran', false],
-  ['v16', 'Shri Pradeep Maharaj Ji — Shiv Puran 04', 'TwcnPozIKao', 'Shiv Puran', false],
-  ['v17', 'Shri Pradeep Maharaj Ji — Shiv Puran 05', 'Nx9Yuyt2evY', 'Shiv Puran', false],
-  ['v18', 'Shri Pradeep Maharaj Ji — Shiv Puran 06', 'BGyxRBSyBCM', 'Shiv Puran', false],
+  ['v13', 'Shri Pradeep Maharaj Ji — Shiv Puran 01', 'mQrnbun6WWU', 'Shiv Maha Puran', false],
+  ['v14', 'Shri Pradeep Maharaj Ji — Shiv Puran 02', 'eaKxaoIwrJI', 'Shiv Maha Puran', false],
+  ['v15', 'Shri Pradeep Maharaj Ji — Shiv Puran 03', 'YcMafsYrxEs', 'Shiv Maha Puran', false],
+  ['v16', 'Shri Pradeep Maharaj Ji — Shiv Puran 04', 'ZDawvIF_ntI', 'Shiv Maha Puran', false],
+  ['v17', 'Shri Pradeep Maharaj Ji — Shiv Puran 05', '7emUI9dAN8U', 'Shiv Maha Puran', false],
+  ['v18', 'Shri Pradeep Maharaj Ji — Shiv Puran 06', 'cwME_ckA8T0', 'Shiv Maha Puran', false],
 
   // ============================================================
   // SPIRITUAL DISCOURSE - 6 VIDEOS
@@ -65,14 +66,15 @@ const videoEntries = [
   // OTHER - 6 VIDEOS
   // ============================================================
 
-  ['v31', 'Shri Pradeep Maharaj Ji — Krishna Bhajan 01', 'gqpM7MT6o_k', 'Other', false],
+  ['v31', 'Shri Pradeep Maharaj Ji — Krishna Bhajan 01', '6k9_CpSPNxk', 'Other', false],
   ['v32', ' Shri Pradeep Maharaj Ji — Bholeji Bhajan 02', 'oxY1b7PqYT0', 'Other', false],
   ['v33', 'Shri Pradeep Maharaj Ji — Bhakti Sandhya 03', '6ocwjo4WqpU', 'Other', false],
   ['v34', 'Shri Pradeep Maharaj Ji — Bhakti Sandhya 04', 'BY4aR_Je0v8', 'Other', false],
   ['v35', 'Shri Pradeep Maharaj Ji — Bhakti Sandhya 05', '2ihITnJRFVs', 'Other', false],
   ['v36', 'Shri Pradeep Maharaj Ji — Bhakti Sandhya 06', '5lZ6gLBzUlM', 'Other', false],
-//https://www.youtube.com/watch?v=Nx9Yuyt2evY&pp=ygVDIERBWSAwM19TSFJJIFJBTSBLQVRIQSBfUFJFREVFUCBNQUhBUkFKIEpJIC8vIE1PUkFJWUEgQlVKVVJHIEtBTk5PSg%3D%3D
-  ['v37', 'Shri Pradeep Maharaj Ji — Ram Katha 01', 'gqpM7MT6o_k', 'Ram Katha', false],
+
+//https://www.youtube.com/watch?v=6k9_CpSPNxk&t=6s&pp=0gcJCf4LAYcqIYzv
+  ['v37', 'Shri Pradeep Maharaj Ji — Ram Katha 01', '6k9_CpSPNxk', 'Ram Katha', false],
   ['v38', ' Shri Pradeep Maharaj Ji — Ram Katha 02', 'MPz6a-29GZ4', 'Ram Katha', false],
   ['v39', 'Shri Pradeep Maharaj Ji — Ram Katha 03', 'TwcnPozIKao', 'Ram Katha', false],
   ['v40', 'Shri Pradeep Maharaj Ji — Ram Katha 04', 'Nx9Yuyt2evY', 'Ram Katha', false],
