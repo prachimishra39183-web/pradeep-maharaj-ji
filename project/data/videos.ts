@@ -89,7 +89,7 @@ export const videos: Video[] = videoEntries.map(([id, title, videoId, category, 
   description: 'Watch Shri Pradeep Maharaj Ji share spiritual wisdom, devotion and timeless guidance.',
   category,
   date: 'Watch on YouTube',
-  location: 'Jan Kalyan Gurukul Seva Sanstha',
+  location: 'Jan Kalyan Gurukul Seva Sansthan',
   thumbnail: `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`,
   ...(featured ? { featured: true } : {}),
 }));

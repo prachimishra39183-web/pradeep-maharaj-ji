@@ -3,7 +3,7 @@
 // ============================================================
 
 export const gurukulData = {
-  organization: 'Jan Kalyan Gurukul Seva Sanstha',
+  organization: 'Jan Kalyan Gurukul Seva Sansthan',
 
   
 

@@ -8,7 +8,7 @@
 export const saintData = {
 
   title: 'Spiritual Guide & Founder',
-  organization: 'Jan Kalyan Gurukul Seva Sanstha',
+  organization: 'Jan Kalyan Gurukul Seva Sansthan',
 
   about: {
     label: 'Walking the Path of Dharma',
@@ -35,7 +35,7 @@ export const saintData = {
     number: '01',
     title: 'Early Life',
     description:
-      'Shri Pradeep Maharaj Ji was born on 26 February in Lakhimpur , Uttar Pradesh. From his childhood, he developed a deep interest in spirituality, Indian traditions, and the teachings of Sanatan Dharma.',
+      'Shri Pradeep Maharaj Ji was born on 26 February ,1993 in Lakhimpur , Uttar Pradesh. From his childhood, he developed a deep interest in spirituality, Indian traditions, and the teachings of Sanatan Dharma.',
     
   },
   {

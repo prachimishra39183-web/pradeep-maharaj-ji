@@ -126,7 +126,7 @@ export default function AboutPage() {
 
               <div className="absolute bottom-7 left-8">
                 <p className="text-[9px] uppercase tracking-[0.3em] text-white/70">
-                  Jan Kalyan Gurukul Seva Sanstha
+                  Jan Kalyan Gurukul Seva Sansthan
                 </p>
 
                 <p className="mt-2 font-serif-display text-2xl text-white">

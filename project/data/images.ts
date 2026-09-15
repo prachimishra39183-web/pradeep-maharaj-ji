@@ -36,7 +36,7 @@ export const siteImages = {
   saintQuaternary: { src: navImageTwo, alt: ' Shri Pradeep Maharaj Ji in traditional white attire' },
   saintByRiver: { src: navImageThree, alt: 'Portrait of Shri Pradeep Maharaj Ji' },
   templeDome: { src: navImageFour, alt: 'Jan Kalyan Gurukul spiritual gathering decorated in saffron' },
-  templeColorful: { src: navImageFour, alt: 'Community gathering at Jan Kalyan Gurukul Seva Sanstha' },
+  templeColorful: { src: navImageFour, alt: 'Community gathering at Jan Kalyan Gurukul Seva Sansthan' },
   templeInterior: { src: navImageFour, alt: 'Spiritual gathering with devotees and organizers' },
   templeOilLamp: { src: navImageOne, alt: 'Shri Pradeep Maharaj Ji walking with the spiritual community' },
   templeCarvings: { src: navImageFour, alt: 'Community members gathered for a spiritual program' },

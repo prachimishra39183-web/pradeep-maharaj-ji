@@ -19,11 +19,11 @@ const cormorant = Cormorant_Garamond({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://jankalyangurukul.org'),
-  title: 'Jan Kalyan Gurukul Seva Sanstha | Spiritual Wisdom, Katha & Gurukul',
+  title: 'Jan Kalyan Gurukul Seva Sansthan | Spiritual Wisdom, Katha & Gurukul',
   description:
     'Discover the spiritual journey, teachings, Kathas, Gurukul, seva activities and upcoming religious events of Jan Kalyan Gurukul Seva Sanstha.',
   keywords: [
-    'Jan Kalyan Gurukul Seva Sanstha',
+    'Jan Kalyan Gurukul Seva Sansthan',
     'spiritual wisdom',
     'Katha',
     'Gurukul',
@@ -34,17 +34,17 @@ export const metadata: Metadata = {
     'Hindu saint',
   ],
   openGraph: {
-    title: 'Jan Kalyan Gurukul Seva Sanstha | Spiritual Wisdom, Katha & Gurukul',
+    title: 'Jan Kalyan Gurukul Seva Sansthan | Spiritual Wisdom, Katha & Gurukul',
     description:
-      'Discover the spiritual journey, teachings, Kathas, Gurukul, seva activities and upcoming religious events of Jan Kalyan Gurukul Seva Sanstha.',
+      'Discover the spiritual journey, teachings, Kathas, Gurukul, seva activities and upcoming religious events of Jan Kalyan Gurukul Seva Sansthan.',
     type: 'website',
     locale: 'en_US',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Jan Kalyan Gurukul Seva Sanstha | Spiritual Wisdom, Katha & Gurukul',
+    title: 'Jan Kalyan Gurukul Seva Sansthan | Spiritual Wisdom, Katha & Gurukul',
     description:
-      'Discover the spiritual journey, teachings, Kathas, Gurukul, seva activities and upcoming religious events of Jan Kalyan Gurukul Seva Sanstha.',
+      'Discover the spiritual journey, teachings, Kathas, Gurukul, seva activities and upcoming religious events of Jan Kalyan Gurukul Seva Sansthan.',
   },
 };
 
