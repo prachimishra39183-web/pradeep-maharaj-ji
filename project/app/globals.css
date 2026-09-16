@@ -251,3 +251,12 @@ html {
   width: 40px;
   background: hsl(var(--beige));
 }
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}

@@ -3,9 +3,7 @@
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { ChevronDown, ChevronLeft, ChevronRight } from 'lucide-react';
-import { siteConfig } from '@/data/site';
 import { siteImages } from '@/data/images';
-import { saintData } from '@/data/saint';
 import { cn } from '@/lib/utils';
 
 export function HeroSection() {
@@ -44,17 +42,65 @@ export function HeroSection() {
   const rightBottomSlide = getSlide(4);
 
   return (
-    <section className="relative min-h-screen w-full overflow-hidden bg-transparent">
+    <section className="relative min-h-screen w-full overflow-hidden bg-transparent pt-[76px] md:pt-[84px]">
 
-    {/* ================= SOLID BACKGROUND ================= */}
+      {/* =====================================================
+          MOVING KATHA VYAS TITLE
+          Appears directly below the fixed navbar
+      ====================================================== */}
+      <div className="relative z-40 overflow-hidden border-y border-[#B68B3C]/20 bg-[#F4EBDD]/95 py-3.5 backdrop-blur-sm md:py-4">
+
+        {/* subtle glow */}
+        <div className="pointer-events-none absolute left-1/2 top-1/2 h-16 w-[60%] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#B68B3C]/10 blur-3xl" />
+
+        {/* moving track */}
+        <div className="relative flex w-max animate-[marquee_20s_linear_infinite]">
+
+          {[1, 2, 3, 4, 5].map((item) => (
+            <div
+              key={item}
+              className="flex items-center whitespace-nowrap px-8 md:px-12"
+            >
+
+              {/* ornament */}
+              <span className="mr-7 text-lg text-[#B68B3C] md:mr-10 md:text-xl">
+                ✦
+              </span>
+
+              {/* 3D heading */}
+              <span
+                className="font-serif-display text-2xl font-medium tracking-wide text-[#7A2E2E] md:text-4xl"
+                style={{
+                  textShadow:
+                    '2px 2px 0 #D8C6AA, 4px 4px 0 rgba(122,46,46,0.12), 0 7px 18px rgba(43,43,43,0.12)',
+                }}
+              >
+                कथा व्यास पं प्रदीप जी महाराज
+              </span>
+
+              {/* ornament */}
+              <span className="ml-7 text-lg text-[#B68B3C] md:ml-10 md:text-xl">
+                ✦
+              </span>
+
+            </div>
+          ))}
+
+        </div>
+
+      </div>
 
 
-      {/* ================= MAIN CONTENT ================= */}
-      <div className="relative z-10 mx-auto flex min-h-screen max-w-[1500px] items-center px-5 pb-24 pt-28 sm:px-8 lg:px-10">
+      {/* =====================================================
+          MAIN CONTENT / SLIDESHOW
+      ====================================================== */}
+      <div className="relative z-10 mx-auto flex min-h-[calc(100vh-140px)] max-w-[1500px] items-center px-5 pb-24 pt-10 sm:px-8 md:pt-14 lg:px-10">
 
         <div className="grid w-full grid-cols-1 gap-5 lg:grid-cols-[0.85fr_1.7fr_0.85fr] lg:gap-6">
 
-          {/* ================= LEFT COLUMN ================= */}
+          {/* =================================================
+              LEFT COLUMN
+          ================================================== */}
           <div className="hidden h-[600px] flex-col gap-5 lg:flex">
 
             <HeroCollageCard
@@ -70,8 +116,10 @@ export function HeroSection() {
           </div>
 
 
-          {/* ================= CENTER ================= */}
-          <div className="relative h-[600px] sm:h-[600px] lg:h-[600px]">
+          {/* =================================================
+              CENTER
+          ================================================== */}
+          <div className="relative h-[520px] sm:h-[560px] lg:h-[600px]">
 
             <div className="absolute inset-0 overflow-hidden rounded-2xl shadow-2xl ring-1 ring-white/20">
 
@@ -79,14 +127,12 @@ export function HeroSection() {
                 key={centerSlide.src}
                 src={centerSlide.src}
                 alt={centerSlide.alt}
-                className="h-full w-full object-cover animate-hero-image"
+                className="h-full w-full animate-hero-image object-cover"
               />
 
-              {/* Main image gradient */}
-          
 
               {/* ================= HERO TEXT ================= */}
-              <div className="absolute inset-x-0 bottom-0 p-7 sm:p-10 lg:p-12">
+              <div className="absolute inset-x-0 bottom-0 p-6 sm:p-8 lg:p-12">
 
                 <div
                   className={cn(
@@ -97,21 +143,19 @@ export function HeroSection() {
                   )}
                 >
 
-                 
-
                   {/* Buttons */}
                   <div className="mt-7 flex flex-wrap gap-3">
 
                     <Link
                       href="/about"
-                      className="rounded-full  border border-white/40 bg-maroon/100 px-6 py-3 text-xs font-medium uppercase tracking-wider text-ivory transition-all duration-300 hover:scale-105 hover:bg-white/20  sm:px-7 sm:text-sm"
+                      className="rounded-full border border-white/40 bg-maroon px-6 py-3 text-xs font-medium uppercase tracking-wider text-ivory transition-all duration-300 hover:scale-105 hover:bg-maroon/90 sm:px-7 sm:text-sm"
                     >
                       Explore His Journey
                     </Link>
 
                     <Link
                       href="/videos"
-                      className="rounded-full border border-white/40 bg-maroon/100 px-6 py-3 text-xs font-medium uppercase tracking-wider text-ivory  transition-all duration-300 hover:scale-105 hover:bg-white/20 sm:px-7 sm:text-sm"
+                      className="rounded-full border border-white/40 bg-maroon px-6 py-3 text-xs font-medium uppercase tracking-wider text-ivory transition-all duration-300 hover:scale-105 hover:bg-maroon/90 sm:px-7 sm:text-sm"
                     >
                       Watch Katha
                     </Link>
@@ -125,9 +169,11 @@ export function HeroSection() {
 
               {/* ================= IMAGE LABEL ================= */}
               <div className="absolute right-5 top-5 max-w-[220px] rounded-full border border-white/20 bg-black/20 px-4 py-2 backdrop-blur-md">
+
                 <p className="truncate text-[10px] font-medium uppercase tracking-wider text-white/80">
                   {centerSlide.alt}
                 </p>
+
               </div>
 
             </div>
@@ -135,7 +181,9 @@ export function HeroSection() {
           </div>
 
 
-          {/* ================= RIGHT COLUMN ================= */}
+          {/* =================================================
+              RIGHT COLUMN
+          ================================================== */}
           <div className="hidden h-[600px] flex-col gap-5 lg:flex">
 
             <HeroCollageCard
@@ -151,10 +199,13 @@ export function HeroSection() {
           </div>
 
         </div>
+
       </div>
 
 
-      {/* ================= SLIDER CONTROLS ================= */}
+      {/* =====================================================
+          SLIDER CONTROLS
+      ====================================================== */}
       <div className="absolute bottom-8 left-1/2 z-30 flex -translate-x-1/2 items-center gap-4">
 
         <button
@@ -166,9 +217,10 @@ export function HeroSection() {
         </button>
 
 
-        <div className="flex items-center gap-2 rounded-full border border-white/10 bg-black/20 px-4 py-3 backdrop-blur-md">
+        <div className="flex max-w-[70vw] items-center gap-2 overflow-hidden rounded-full border border-white/10 bg-black/20 px-4 py-3 backdrop-blur-md">
 
           {slides.map((slide, index) => (
+
             <button
               key={slide.src}
               onClick={() => setActiveIndex(index)}
@@ -180,6 +232,7 @@ export function HeroSection() {
                   : 'w-1.5 bg-white/40 hover:bg-white/70'
               )}
             />
+
           ))}
 
         </div>
@@ -196,7 +249,9 @@ export function HeroSection() {
       </div>
 
 
-      {/* ================= SCROLL INDICATOR ================= */}
+      {/* =====================================================
+          SCROLL INDICATOR
+      ====================================================== */}
       <div className="absolute bottom-8 right-8 z-30 hidden lg:block">
         <ChevronDown className="h-5 w-5 animate-bounce text-white/40" />
       </div>
@@ -247,9 +302,11 @@ function HeroCollageCard({
 
       {/* Image caption */}
       <div className="absolute bottom-4 left-4 right-4">
+
         <p className="line-clamp-2 text-[10px] font-medium uppercase tracking-wider text-white/80 sm:text-xs">
           {slide.alt}
         </p>
+
       </div>
 
     </div>

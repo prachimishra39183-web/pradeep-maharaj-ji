@@ -1,82 +1,67 @@
-// ============================================================
-// EVENTS DATA
-// ============================================================
-// Add, edit, or remove events here.
-// ============================================================
-
 export type Event = {
   id: string;
-  date: string;
-  endDate?: string;
   name: string;
   type: string;
+  date: string;
   location: string;
-  
-  directionsUrl?: string;
+  description?: string;
 };
 
 export const events: Event[] = [
   {
-    id: 'e1',
-    date: '25 May',
-    endDate: '31 May',
+    id: 'event-01',
     name: 'Shrimad Bhagwat Maha Puran',
-    type: 'Katha',
+    type: 'Shrimad Bhagwat Maha Puran',
+    date: '25–31 May',
     location: 'Lakhimpur, Uttar Pradesh',
-  
+    description: 'A sacred gathering of Shrimad Bhagwat Maha Puran.',
   },
   {
-    id: 'e2',
-    date: '1 June',
-    endDate: '7 June',
+    id: 'event-02',
     name: 'Shrimad Bhagwat Maha Puran',
-    type: 'Katha',
-    location: 'Naimisharanya, Uttar Pradesh',
-
+    type: 'Shrimad Bhagwat Maha Puran',
+    date: '1–7 June',
+    location: 'Naimisharan, Uttar Pradesh',
+    description: 'A spiritual gathering at Naimisharan.',
   },
   {
-    id: 'e3',
-    date: '22 July',
-    endDate: '28 July',
+    id: 'event-03',
     name: 'Shrimad Bhagwat Maha Puran',
-    type: 'Katha',
+    type: 'Shrimad Bhagwat Maha Puran',
+    date: '22–28 July',
     location: 'Navi Nagar, Uttar Pradesh',
-    
+    description: 'A sacred Shrimad Bhagwat Maha Puran gathering.',
   },
   {
-    id: 'e4',
-    date: '28 August',
-    endDate: '3 September',
+    id: 'event-04',
     name: 'Shrimad Bhagwat Katha',
-    type: 'Katha',
+    type: 'Shrimad Bhagwat Katha',
+    date: '28 Aug–3 Sept',
     location: 'Jalandhar, Punjab',
-    
+    description: 'Shrimad Bhagwat Katha in Jalandhar, Punjab.',
   },
   {
-    id: 'e5',
-    date: '5 September',
-    endDate: '11 September',
+    id: 'event-05',
     name: 'Shrimad Bhagwat Maha Puran',
-    type: 'Katha',
-    location: 'Sitapur',
-    
+    type: 'Shrimad Bhagwat Maha Puran',
+    date: '5–11 Sept',
+    location: 'Sitapur, Uttar Pradesh',
+    description: 'A sacred Shrimad Bhagwat Maha Puran gathering in Sitapur.',
   },
   {
-    id: 'e6',
-    date: '11 October',
-    endDate: '20 October',
+    id: 'event-06',
     name: 'Shiv Puran',
-    type: 'Katha',
-    location: 'Sankatadevi Mandir, Lakhimpur',
-    
+    type: 'Shiv Puran',
+    date: '11–20 Oct',
+    location: 'Sankatadevi Mandir, Lakhimpur, Uttar Pradesh',
+    description: 'Upcoming Shiv Puran at Sankatadevi Mandir.',
   },
   {
-    id: 'e7',
-    date: '18 November',
-    endDate: '24 November',
+    id: 'event-07',
     name: 'Shrimad Bhagwat Katha',
-    type: 'Katha',
+    type: 'Shrimad Bhagwat Katha',
+    date: '18–24 Nov',
     location: 'Kanpur, Uttar Pradesh',
-    
+    description: 'Upcoming Shrimad Bhagwat Katha in Kanpur.',
   },
 ];
